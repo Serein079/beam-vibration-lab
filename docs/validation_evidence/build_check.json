@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "build_command": "python -m build --no-isolation --sdist --wheel",
+  "source_distribution_build": "PASS",
+  "wheel_build": "PASS",
+  "wheel_notice_included": true,
+  "editable_cli_outside_repository": "PASS",
+  "wheel_installed_with_no_source_path": "PASS",
+  "wheel_cli_outside_repository": "PASS",
+  "wheel_tests": {
+    "passed": 48,
+    "failures": 0,
+    "errors": 0
+  },
+  "wheel_sha256": "7cf46a2fcd2cb64a6e29c68ea7d36a77318ef5bbade3f4dc832664cf6d55512f",
+  "remote_ci": "NOT RUN",
+  "legacy_fenics_runtime": "NOT RUN"
+}

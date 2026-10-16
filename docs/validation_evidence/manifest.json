@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-10-09T11:53:12.112389+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "passed": true,
+  "fenics": "NOT RUN: requires separate legacy FEniCS environment",
+  "steps": [
+    {
+      "name": "pytest",
+      "exit_code": 0,
+      "seconds": 4.837533
+    },
+    {
+      "name": "convergence_study",
+      "exit_code": 0,
+      "seconds": 2.253045
+    },
+    {
+      "name": "extended_studies",
+      "exit_code": 0,
+      "seconds": 1.472619
+    },
+    {
+      "name": "material_comparison",
+      "exit_code": 0,
+      "seconds": 1.076379
+    },
+    {
+      "name": "modal_analysis",
+      "exit_code": 0,
+      "seconds": 1.020981
+    },
+    {
+      "name": "static_cantilever",
+      "exit_code": 0,
+      "seconds": 1.01611
+    },
+    {
+      "name": "stepped_beam_cutouts",
+      "exit_code": 0,
+      "seconds": 1.123876
+    },
+    {
+      "name": "transient_response",
+      "exit_code": 0,
+      "seconds": 1.385972
+    },
+    {
+      "name": "cantilever_harmonic",
+      "exit_code": 0,
+      "seconds": 0.646643
+    },
+    {
+      "name": "cantilever_static",
+      "exit_code": 0,
+      "seconds": 0.651652
+    },
+    {
+      "name": "cantilever_transient",
+      "exit_code": 0,
+      "seconds": 0.771204
+    },
+    {
+      "name": "simply_supported_modal",
+      "exit_code": 0,
+      "seconds": 0.650216
+    }
+  ]
+}
