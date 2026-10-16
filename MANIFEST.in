@@ -1,0 +1,12 @@
+include .gitignore .gitattributes
+include README.md README.zh-CN.md NOTICE.md CHANGELOG.md UPSTREAM_MANIFEST.json
+include requirements.txt requirements-tested.txt
+recursive-include docs *.md *.json *.xml
+recursive-include configs *.json
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include fenics *.py *.md
+recursive-include .github *.yml *.md
+recursive-include results *.png *.json *.csv
+global-exclude __pycache__ *.py[cod]

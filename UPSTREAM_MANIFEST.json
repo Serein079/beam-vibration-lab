@@ -1,0 +1,20 @@
+{
+  "commit": "8eb430f666c048604d37296c82a0364c26fe4117",
+  "files": {
+    "src/fem_beam.py": "0fc3deb1cce7c4276399e02a37e0ef98633ae3dba3e1d9d4b80ecfa103804029",
+    "examples/convergence_study.py": "a774754fee8324cd7ae6fef72ba58025d0351a39817354e876035798eca6a54c",
+    "examples/material_comparison.py": "b3343985eb20bc4b4aa5e60393e2bb8aaa00555b0f6d23ef813662c3bac42665",
+    "examples/modal_analysis.py": "c71d6f07979198fc4489a6ccac3085ca18e81a53d53e5222662579c1406a0408",
+    "examples/static_cantilever.py": "0efd533292d5aba8271dd3340beaa62689ed1e7640f310f141f53fc5af97356e",
+    "examples/stepped_beam_cutouts.py": "4fbf56dce94f5c6c21855b28cb480f52c591007d95126ada40ba828497899daf",
+    "examples/transient_response.py": "605a3911ed06aacdbec6a847b72addd5009dc0640ba688c7d636371b22836932",
+    "tests/test_fem_beam.py": "f40f84863c2ad4fac651fc7304381ca41daaba94d3bbc19c2232ce0627763e02",
+    "fenics/hollow_box_beam_static.py": "cdc121203e22f9e3b3f9be665cab4418cec48a27d766e58312ac911b270a870a",
+    "fenics/PROJECT_SUMMARY.md": "ca4344d8a6ebb86258179b8d9d351dbc14848eeda2de9e426331adadf46a246d",
+    "fenics/README.md": "d528cf45b7e9e30ca2066a44bc77ee9703249f9667152fc67ce6612c7a872307",
+    "fenics/static_cantilever_deflection.py": "bc1013af3ef6844d234ac02a21ff0547100c747fff5c4a302ba49cabe4ee0e90",
+    "fenics/transient_beam_vibration.py": "a37c25468bda8c844c945fe22a9cacdf0e0ffdcd1fa9e8c3c724d5283fe8e83a",
+    "README.md": "90c61740b2e6642f4b89d069966af20d3f46db5512723b2217b9df0293d8c052",
+    "requirements.txt": "79985d96dab76f1c9962a381f02773ec4a1b2b09b0b2673b70415f604afaaeae"
+  }
+}

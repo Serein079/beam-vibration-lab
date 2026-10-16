@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beam-vibration-lab"
+version = "0.2.0"
+description = "Validated Euler-Bernoulli beam statics, modes, transients and frequency response"
+readme = "README.md"
+license-files = ["NOTICE.md"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8,<4"]
+dev = ["pytest>=8,<10", "build>=1,<2", "matplotlib>=3.8,<4"]
+
+[project.scripts]
+beam-fem = "fem_beam_cli:main"
+
+[tool.setuptools]
+py-modules = ["fem_beam", "fem_beam_cli"]
+package-dir = {"" = "src"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
