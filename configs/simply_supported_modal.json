@@ -1,0 +1,4 @@
+{
+  "beam": {"length": 1.0, "width": 0.05, "height": 0.01, "E": 200000000000, "rho": 7850, "n_elements": 30, "boundary": "simply-supported"},
+  "analysis": {"type": "modal", "n_modes": 4}
+}
