@@ -1,0 +1,34 @@
+{
+  "cantilever": {
+    "max_deflection_mm": 2.999999999998985,
+    "frequencies_Hz": [
+      8.15380712729123,
+      51.099057781345984,
+      143.07924702441656
+    ]
+  },
+  "simply-supported": {
+    "max_deflection_mm": 0.3125000000032634,
+    "frequencies_Hz": [
+      22.88808509106535,
+      91.55245497126495,
+      205.9941383071747
+    ]
+  },
+  "clamped-clamped": {
+    "max_deflection_mm": 0.06250000000005215,
+    "frequencies_Hz": [
+      51.88473800045274,
+      143.02268255336992,
+      280.38423302774817
+    ]
+  },
+  "dynamics": {
+    "rayleigh_coefficients": [
+      1.7672737687017384,
+      0.000107441179999095
+    ],
+    "undamped_relative_energy_drift": 2.5255786351152665e-10,
+    "damped_final_energy_ratio": 0.3542115935248873
+  }
+}
